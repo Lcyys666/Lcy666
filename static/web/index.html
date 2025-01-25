@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教程</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #002a6e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            display: block; /* 修改: 将 display: inline-block 改为 display: block */
+            margin: 0; /* 修改: 删除: margin: 0 auto; */
+            font-size: 4em; /* 修改: 将 font-size: 3em 改为 font-size: 4em */
+            font-weight: bold;
+            text-align: left; /* 修改: 添加 text-align: left */
+        }
+        main {
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            width: 70%;
+            float: right;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .footer {
+            clear: both;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+        }
+        .forum-intro {
+            margin-top: 20px;
+        }
+        .forum-logo {
+            float: right;
+            margin-left: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Lcy666
+        </div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h2>教程</h2>
+            <ul>
+                <li><a href="#forum-intro">教程</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="forum-intro">教程</h2>
+            <p>YSSF教程</p>
+            <p>详细教程</p>
+            <p>视频教程</p>
+            <p>什么都没显示是因为你卡了</p>
+            <div class="forum-logo">
+                <!-- 删除: <img src="https://placehold.co/150x150?text=Forum+Logo" alt="西湖学术论坛 Logo"> -->
+                <video width="1075" height="600" controls>
+                    <source src="video/mp4.mp4" type="video/mp4">
+                    您的浏览器不支持 video 标签。
+                </video>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 Lcy666</p>
+    </footer>
+</body>
+</html>
+
